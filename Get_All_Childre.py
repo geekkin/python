@@ -1,3 +1,4 @@
+#coding = utf-8
 import win32gui
 import win32con
 
@@ -7,3 +8,5 @@ win32gui.EnumChildWindows(460588,  lambda hWnd, param: param.append(hWnd), child
 print(childre_hwnd_list)
 for i in childre_hwnd_list:
     print(win32gui.GetClassName(i))
+
+input('enything key exit application!')
