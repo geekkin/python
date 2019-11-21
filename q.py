@@ -1,3 +1,6 @@
 print('im very happy for firt submit git dataup')
 vl = input('please enter key value:')
 print(vl)
+
+m = 888
+input('你的名字是什么？可以告诉我吗？')
